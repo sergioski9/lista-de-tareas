@@ -12,7 +12,6 @@ const todoItemsSlice = createSlice({
     remove_item: (state, action) => {
       state.items = state.items.filter(i => i.item !== action.payload)
     }
-
   }
 })
 
